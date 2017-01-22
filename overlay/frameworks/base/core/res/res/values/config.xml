@@ -375,4 +375,8 @@
          carrier provisioning. If false: hard disabled. If true: then depends on carrier
          provisioning, availability etc -->
     <bool name="config_carrier_vt_available">true</bool>
+
+    <!-- Support in Surfaceflinger for blur layers.
+         NOTE: This requires additional hardware-specific code. -->
+    <bool name="config_uiBlurEnabled">true</bool>
 </resources>
